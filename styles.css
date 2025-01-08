@@ -5,55 +5,68 @@
 \paperw16840\paperh23820\margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 body \{\
+\f0\fs24 \cf0 /* \uc0\u36890 \u29992 \u26679 \u24335  */\
+body \{\
   font-family: Arial, sans-serif;\
+  background-color: #f4f4f9;\
   margin: 0;\
   padding: 0;\
   display: flex;\
   justify-content: center;\
   align-items: center;\
   height: 100vh;\
-  background-color: #f4f4f4;\
 \}\
 \
+/* \uc0\u34920 \u21333 \u23481 \u22120 \u26679 \u24335  */\
 #app \{\
-  background: #fff;\
-  padding: 20px;\
+  background-color: white;\
   border-radius: 8px;\
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\
+  padding: 20px;\
   width: 300px;\
   text-align: center;\
 \}\
 \
+/* \uc0\u34920 \u21333 \u20803 \u32032 \u26679 \u24335  */\
 h1 \{\
+  font-size: 24px;\
   margin-bottom: 20px;\
-\}\
-\
-form \{\
-  display: flex;\
-  flex-direction: column;\
+  color: #333;\
 \}\
 \
 label \{\
+  font-size: 14px;\
+  color: #666;\
+  display: block;\
   margin: 10px 0 5px;\
 \}\
 \
 input \{\
+  width: 100%;\
   padding: 10px;\
-  margin-bottom: 10px;\
+  margin: 5px 0 15px;\
   border: 1px solid #ccc;\
   border-radius: 4px;\
 \}\
 \
 button \{\
-  background: #007BFF;\
+  background-color: #007bff;\
   color: white;\
+  padding: 10px 20px;\
   border: none;\
-  padding: 10px;\
   border-radius: 4px;\
   cursor: pointer;\
+  width: 100%;\
 \}\
 \
 button:hover \{\
-  background: #0056b3;\
+  background-color: #0056b3;\
+\}\
+\
+/* \uc0\u21709 \u24212 \u24335 \u35774 \u35745  */\
+@media (max-width: 500px) \{\
+  #app \{\
+    width: 100%;\
+    margin: 0 10px;\
+  \}\
 \}}
